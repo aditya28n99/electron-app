@@ -1,0 +1,83 @@
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid rgb(61, 63, 65);
+    background-color: rgb(167, 180, 194);
+    width: 20vw;
+    height: 100vh;
+    /* border: 1px solid black; */
+    /* box-sizing: content-box; */
+}
+#sideimg{
+    width: 100%;
+    height: auto;
+}
+.Progressbar{
+    /* border: 1px solid black; */
+    display: flex;
+    margin:100px auto;  
+    width: max-content;
+}
+.ShowProgress{
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(61, 63, 65);
+    border-radius: 50%;
+}
+#start:hover{
+    border: 1px solid wheat;
+    background-color: wheat;
+}
+#process:hover{
+    border: 1px solid yellowgreen;
+    background-color: yellow;
+}
+#success:hover{
+    border: 1px solid yellowgreen;
+    background-color: green;
+}
+#error:hover{
+    border: 1px solid red;
+    background-color: red;
+}
+
+.ProgressBtn{
+    width: 70%;
+    padding: 15px;
+    border-radius: 20px;
+    margin:20px auto;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 4px gray;
+}
+.ProgressBtn:hover{
+    background-color: lightgrey;
+}
+
+
+@media screen and ( max-width: 1400px) {    
+    .Sidebar{ 
+        /* background-color: red; */
+        background-color:  rgb(167, 180, 194);
+        width: 25vw;
+        height: 100vh;
+    }
+    .Progressbar{
+        margin:20px auto;  
+        width: max-content;
+        flex-direction: column;
+    }
+    .ShowProgress{
+        height: 40px;
+        width: 40px;
+        margin: 5px;
+    }
+    .ProgressBtn{
+        width: 70%;
+        padding: 7px;
+        margin:10px auto;
+    }
+
+}
+

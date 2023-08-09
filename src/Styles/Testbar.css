@@ -1,0 +1,40 @@
+.Testbar{
+    position: absolute;
+    bottom: 0;
+    width: 80vw;
+}
+.TestNotification{
+    margin: 0;
+    font-size: larger;
+    color: white;
+    background-color: blue;
+    text-align: center;
+}
+.TestInputbar{
+    width: 80vw;
+    height: 100px;
+    overflow-y: scroll;
+    background-color: rgb(167, 180, 194);
+    padding: 10px;
+}
+.TestInputbar p{
+    font-size: small;
+    font-weight: bold;
+}
+#input-text{
+    width: 80%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+#input-check{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+#timer{
+    font-size: large;
+}
+#test-success{
+    color: green;
+}

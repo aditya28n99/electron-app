@@ -1,7 +1,7 @@
 
 
 .Navbar{
-    width: auto;
+    width: 80vw;
     height: max-content;    
 }
 .Navbar img{
@@ -43,3 +43,16 @@
     float: right;
     margin-right: 15px;
 }
+/* @media screen and ( max-width: 700px) {    
+
+    .Navlinks{
+        text-decoration: none;
+        font-size: small;
+        margin: 10px 5px;
+        padding: 10px 5px;
+    }
+    #tool{
+        float:right;
+        margin-right: 20px;
+    }
+} */
