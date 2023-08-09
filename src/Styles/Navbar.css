@@ -1,0 +1,45 @@
+
+
+.Navbar{
+    width: auto;
+    height: max-content;    
+}
+.Navbar img{
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+.NavBtnWrapper{
+    display: flex;
+}
+.Dropdown{
+    display: inline;
+}
+.NavBtns{
+    border: none;
+    background-color: transparent;
+    color: black;
+    outline: none; 
+}
+.NavBtns:hover{
+    background-color: transparent;
+    color: black;
+    outline: none; 
+} 
+.NavBtns:focus{
+    background-color: transparent;
+    color: Blue;
+    outline: none; 
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: black;
+    background-color: transparent;
+    border: none;
+}
+.Saperator{
+    font-size: larger;
+}
+#tool{
+    float: right;
+    margin-right: 15px;
+}
