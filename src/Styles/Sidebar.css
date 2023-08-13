@@ -1,8 +1,8 @@
 .Sidebar{
     display: flex;
     flex-direction: column;
-    border-right: 2px solid rgb(61, 63, 65);
-    background-color: rgb(167, 180, 194);
+    /* border-right: 2px solid rgb(61, 63, 65); */
+    background-color: #f0f0f0;
     width: 20vw;
     height: 100vh;
     /* border: 1px solid black; */
@@ -15,8 +15,12 @@
 .Progressbar{
     /* border: 1px solid black; */
     display: flex;
-    margin:100px auto;  
+    margin:80px auto;  
     width: max-content;
+}
+#spinner{
+    width: 60px;
+    height: 60px;
 }
 .ShowProgress{
     height: 60px;
@@ -47,24 +51,21 @@
     width: 70%;
     padding: 15px;
     border-radius: 20px;
-    margin:20px auto;
+    margin:20px auto;   
     background-color: whitesmoke;
     box-shadow: 2px 2px 4px gray;
 }
-.ProgressBtn:hover{
-    background-color: lightgrey;
-}
 
 
-@media screen and ( max-width: 1400px) {    
+@media screen and ( max-width: 1200px) {    
     .Sidebar{ 
         /* background-color: red; */
-        background-color:  rgb(167, 180, 194);
+        background-color: '#f0f0f0';
         width: 25vw;
         height: 100vh;
     }
     .Progressbar{
-        margin:20px auto;  
+        margin:40px auto;  
         width: max-content;
         flex-direction: column;
     }
@@ -76,7 +77,8 @@
     .ProgressBtn{
         width: 70%;
         padding: 7px;
-        margin:10px auto;
+        margin:15px auto;
+
     }
 
 }
