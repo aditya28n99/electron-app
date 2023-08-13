@@ -4,6 +4,7 @@ import '../App.css'
 // import Sidebar from './Sidebar'
 import Navbar from './Navbar'
 import Testbar from './Testbar'
+import FileContent from './FileContent'
 
 
 function Content() {
@@ -11,6 +12,7 @@ function Content() {
     <>
     <div className='Contentbar'>
         <Navbar/>
+        <FileContent/>
         <Testbar />
     </div>
     </>

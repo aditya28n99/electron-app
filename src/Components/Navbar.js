@@ -19,6 +19,7 @@ function Navbar() {
             reader.onload = (event) => {
                 const fileContent = event.target.result;
                 console.log('Selected file content:', fileContent);
+                document.getElementById('fileData').innerText = fileContent;
             };
             reader.readAsText(selectedFile);
         }
@@ -46,7 +47,7 @@ function Navbar() {
                         Settings
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-3" onClick={() => document.getElementById('fileInput').click()}><input type="file" id="fileInput" style={{ display: 'none' }} accept=".xml,.txt" onChange={handleFileChange} />Open file</Dropdown.Item>
+                        <Dropdown.Item href="#/action-3" onClick={() => document.getElementById('fileInput').click()}><input type="file" id="fileInput" style={{ display: 'none' }} accept=".xml,.txt, .ini" onChange={handleFileChange} />Open file</Dropdown.Item>
                         <Dropdown.Item href="#/action-3">Other Settings</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>

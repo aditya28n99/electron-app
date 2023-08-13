@@ -1,0 +1,14 @@
+
+.FileContainer{
+
+    /* border: 2px solid red; */
+    width: 70vw;
+    height: 60vh;
+    padding: 20px;
+    margin: 0 auto;
+    /* overflow-wrap: break-word; */
+    overflow-y: scroll;
+}
+#fileData{
+
+}
